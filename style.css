@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height: 101vh;
+    width: 100%;
+    background-image: url("assest/Image/bg-2.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:max-width(1200px,100vw);
+    position: relative;
+}
+.main .box{
+    height: 101vh;
+    width: 100%;
+    opacity: .4;
+    background-color: black;
+    position: absolute;
+    top:0;
+}
+nav img{
+    width: 9.5vw;
+}
+.main nav{
+    max-width: 75vw;
+    margin: auto;
+    background-color: transparent;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+    position: relative;
+    top: 2vh;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 20px;
+    height: 8vh;
+    width: 20vw;
+}
+#lang-slt{
+    height: 4.5vh;
+    width: 8vw;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: transparent;
+    border: 1px solid white;
+    margin: 2px;
+    outline: none;
+}
+#lang-slt:hover{
+    border: 2px solid white;
+}
+#log-in{
+    height: 5vh;
+    width: 6vw;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: 600;
+    margin: 2px;
+    background-color: rgb(234, 25, 36);
+}
+#ar{
+    position: relative;
+    top: 30vh;
+    height: 35vh;
+    width: 100%;
+    filter: brightness();
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#inner-box{
+    height: 40vh;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+#inner-box h2{
+    font-size: 3.5rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+}
+#inner-box p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#mail{
+    box-sizing: border-box;
+    height: 8vh;
+    width: 25vw;
+    padding-left: 10px;
+    outline: none;
+    border-radius: 4px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: #ffffff;
+}
+#mail::placeholder{
+    padding-left: 10px;
+    color: rgb(255, 255, 255);
+}
+#mail:hover{
+    border: 2px solid rgb(255, 255, 255);
+}
+#start{
+    height: 8vh;
+    width: 11vw;
+    background-color: rgb(234, 25, 36);
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    height: 80vh;
+}
+.container .box1{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    height: 50vh;
+    width: 35vw;
+    /* padding: 0px 40px; */
+    color: rgb(255, 255, 255);
+    gap: 10px;
+}
+.container .box2{
+    background-color: rgb(0, 0, 0);
+    height: 50vh;
+    width: 35vw;
+    padding: 0px 50px;
+}
+#para1 h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4rem;
+    font-weight: 900;
+}
+#para1 p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+}
+.box2 img{
+    position: relative;
+    height: 65vh;
+    bottom: 10vh;
+}
+.container .video{
+    position: absolute;
+    right: 13vw;
+    height: 65vh;
+    /* top: 10vh; */
+}
+.gapping{
+    height: 1vh;
+    background-color: rgb(36, 35, 35);
+}
+.container .video-2 video{
+    position: absolute;
+    /* top: 3vh; */
+    height: 30vh;
+    width:45vw;
+    right: 7.5vw;
+}
+.mobile-png{
+    background-color: rgb(0, 0, 0);
+    height: 50vh;
+    width: 35vw;
+    padding: 0px 30px;
+}
+.mobile-png img{
+    position: relative;
+    height: 63vh;
+    bottom: 13vh;
+    right: 5vw;
+    /* margin-bottom: 20vh; */
+}
+#para2 h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+#para2 p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+    gap: 10px;
+}
+#para3 h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4rem;
+    font-weight: 900;
+}
+.qna{
+    padding-top: 5vh;
+    /* padding-bottom: -20vh; */
+    background-color: rgb(0, 0, 0);
+    height: 140vh;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.ques{
+    background-color: rgb(45, 45, 45);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    height: 11vh;
+    width: 80vw;
+    margin-top: 1vh;
+    cursor: pointer;
+}
+.ques:hover{
+    background-color: rgb(62, 62, 62);
+    transition: all ease-in-out .1s;
+}
+.ques p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+}
+.ques span{
+    font-size: 3rem;
+}
+.qna h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4rem;
+    position: relative;
+    bottom: 5vh;
+}
+footer{
+    background-color: rgb(0, 0, 0);
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    list-style: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1rem;
+}
+#call{
+    position: relative;
+    left: -32.2vw;
+}
+#m-no{
+    position: relative;
+    left: 1vw;
+    text-decoration: underline;
+}
+footer .links{
+    background-color: #000000;
+    height: 30vh;
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    padding: 5px 0px;
+    position: relative;
+    top: 2vh;
+}
+.links li{
+    color: rgb(255, 255, 255);
+    width: 20vw;
+    text-decoration: underline;
+}
+.lists{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+}
+.lang{
+    position: relative;
+    bottom: -3vh;
+    left: -36.1vw;
+}
+footer .p{
+    position: relative;
+    bottom: -6vh;
+    left: -37.2vw;
+}
+#git-profile{
+    position: relative;
+    bottom: -6vh;
+}
+#git-profile a{
+    color: #ffffff;
+    cursor: pointer;
+}
