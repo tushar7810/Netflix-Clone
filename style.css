@@ -269,6 +269,7 @@ footer{
     position: relative;
     left: 1vw;
     text-decoration: underline;
+    cursor: pointer;
 }
 footer .links{
     background-color: #000000;
@@ -284,6 +285,7 @@ footer .links{
     color: rgb(255, 255, 255);
     width: 20vw;
     text-decoration: underline;
+    cursor: pointer;
 }
 .lists{
     display: flex;
