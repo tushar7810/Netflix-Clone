@@ -311,7 +311,7 @@ footer .p{
     color: #ffffff;
     cursor: pointer;
 }
-@media (max-width:360px) {
+@media (max-width:414px) and (min-width : 375px) {
     .main{
         height: 101vh;
         width: 230vw;
