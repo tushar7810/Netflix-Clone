@@ -4,7 +4,7 @@
 }
 .main{
     height: 101vh;
-    width: 100%;
+    width: 100vw;
     background-image: url("assest/Image/bg-2.jpg");
     background-position: center center;
     background-repeat: no-repeat;
@@ -310,4 +310,76 @@ footer .p{
 #git-profile a{
     color: #ffffff;
     cursor: pointer;
+}
+@media (max-width:360px) {
+    .main{
+        height: 101vh;
+        width: 230vw;
+        background-position: center center;
+        background-repeat: no-repeat;
+        /* background-size:max-width(1200px,100vw); */
+        position: relative;
+    }
+    nav img{
+        width: 25vw;
+    }
+    .main nav{
+        max-width: 180vw;
+        margin: auto;
+        background-color: transparent;
+        height: 8vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px 5px;
+        position: relative;
+        top: 1vh;
+    }
+    .flex{
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        gap: 20px;
+        height: 20vh;
+        width: 60vw;
+    }
+    #lang-slt{
+        height: 6vh;
+        width: 40vw;
+    }
+    #log-in{
+        width: 30vw;
+    }
+    #ar{
+        position: relative;
+        top: 26vh;
+        height: 35vh;
+        width: 100%;
+    }
+    #inner-box{
+        font-size: 1.5rem;
+        height: 90vh;
+        width: 210vw;
+    }
+    #inner-box h2{
+        font-size: 2.5rem;
+    }
+    .comtinue{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #mail{
+        box-sizing: border-box;
+        height: 8vh;
+        width: 95vw;
+        padding-left: 10px;
+    }
+    #mail::placeholder{
+        padding-left: 10px;
+        color: rgb(255, 255, 255);
+    }
+    #start{
+        width: 55vw;
+    }
 }
