@@ -130,17 +130,16 @@ nav img{
     justify-content: center;
     background-color: rgb(0, 0, 0);
     height: 80vh;
+    width: 100vw;
 }
 .container .box1{
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     justify-content: center;
     background-color: rgb(0, 0, 0);
     height: 50vh;
     width: 35vw;
-    /* padding: 0px 40px; */
     color: rgb(255, 255, 255);
     gap: 10px;
 }
@@ -172,6 +171,7 @@ nav img{
 }
 .gapping{
     height: 1vh;
+    width: 100vw;
     background-color: rgb(36, 35, 35);
 }
 .container .video-2 video{
@@ -214,6 +214,7 @@ nav img{
     /* padding-bottom: -20vh; */
     background-color: rgb(0, 0, 0);
     height: 140vh;
+    width: 100vw;
     color: #ffffff;
     display: flex;
     flex-direction: column;
@@ -252,6 +253,7 @@ nav img{
 footer{
     background-color: rgb(0, 0, 0);
     height: 65vh;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -377,9 +379,114 @@ footer .p{
     }
     #mail::placeholder{
         padding-left: 10px;
-        color: rgb(255, 255, 255);
     }
     #start{
         width: 55vw;
+    }
+    .gapping{
+        height: 1vh;
+        width: 230vw;
+    }
+    .container{
+        width: 230vw;
+        /* background-color: #fff; */
+    }
+    /* .container .box1{
+        height: 50vh;
+        width: 35vw;
+        gap: 10px;
+    }
+    .container .box2{
+        background-color: rgb(0, 0, 0);
+        height: 50vh;
+        width: 35vw;
+        padding: 0px 50px;
+    } */
+    #para1 h1{
+        font-size: 2.5rem;
+    }
+    #para1 p{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 1.5rem;
+    }
+    .box2 img{
+        position: relative;
+        height: 34vh;
+        bottom: -7vh;
+        right: 10vw;
+    }
+    .container .video{
+        position: absolute;
+        right: -114vw;
+        height: 65vh;
+        /* top: 10vh; */
+    }
+    .container .box1 {
+        height: 50vh;
+        width: 100vw;
+        gap: 40px;
+    }
+    .container .video video{
+        height: 20vh;
+        position: relative;
+        right: -3vw;
+        bottom: -13vh;
+    }
+    .mobile-png {
+        background-color: rgb(0, 0, 0);
+        height: 36vh;
+        width: 111vw;
+        padding: 0px 0px;
+        z-index: 0;
+        position: relative;
+        left: -32vw;
+    }
+    .container .video-2 video{
+        height: 17vh;
+        /* right: -103vw; */
+        left: 160vw;
+        bottom: -204vh;
+    }
+    #para2{
+        z-index: 1;
+        font-size: 1.5rem;
+    }
+    .qna{
+        width: 230vw;
+    }
+    .ques{
+        width: 145vw;
+        cursor: pointer;
+    }
+    .ques:hover{
+        background-color: rgb(62, 62, 62);
+        transition: all ease-in-out .1s;
+    }
+    footer{
+        width: 230vw;
+    }
+    #call {
+        position: relative;
+        left: -70vw;
+    }
+    footer .links{
+        height: 30vh;
+        width: 157vw;
+        display: flex;
+        justify-content: center;
+        gap: 7vw;
+    }
+    .links li{
+        width: 45vw;
+    }
+    .lang {
+        position: relative;
+        bottom: -3vh;
+        left: -80vw;
+    }
+    footer .p {
+        position: relative;
+        bottom: -6vh;
+        left: -88vw;
     }
 }
